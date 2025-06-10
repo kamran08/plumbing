@@ -1,0 +1,372 @@
+/*===== Medium Desktop =====*/
+@media only screen and (max-width: 1400px) {
+/* Common */
+/* ._1content {
+    position: relative;
+    padding-top: 54px;
+} */
+._btn_large {
+    line-height: 44px !important;
+    height: 44px !important;
+    padding: 0px 20px;
+    font-size: 16px !important;
+}
+._2btn {
+    width: 234px;
+}
+._1btn {
+    padding: 0 24px;
+    height: 42px;
+    line-height: 42;
+}
+/* Common */
+
+
+}
+/*===== Medium Desktop =====*/
+
+
+/*===== Ipad pro ======*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+}
+/*===== Ipad pro ======*/
+
+/*===== Ipad ====*/
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+
+    
+}
+/*===== Ipad ====*/
+
+/*===== Mobile =====*/   
+@media only screen and (max-width: 765px) {
+/* Menu */
+._1menu {
+    display: none;
+}
+._1header {
+    display: none;
+}
+._mob_bar{
+    display: block;
+}
+._menu_logo {
+    height: 35px;
+}
+/* Menu */
+
+/* Contact */
+._3content{
+    padding-top: 22px;
+}
+._donor_edit {
+    font-size: 14px;
+}
+._donor_label {
+    font-size: 13px;
+    margin-top: 20px;
+}
+._donor_val {
+    font-size: 16px;
+    margin-top: 6px;
+}
+._donor_title {
+    font-size: 20px;
+    line-height: 18px;
+    padding-bottom: 17px;
+    margin-bottom: 12px;
+}
+._con_ques_info_text{
+    font-size: 14px;
+}
+._terms_main {
+    border-radius: 10px;
+    background: #FFF;
+    padding: 20px 20px;
+    margin-bottom: 88px;
+}
+._con_ques {
+    padding: 20px 15px;
+    margin-top: 32px;
+}
+._con_ques_info {
+    display: flex;
+    margin-top: 21px;
+}
+._con_ques_title {
+    font-size: 19px;
+    padding-bottom: 12px;
+    margin-bottom: 3px;
+}
+._faq_title {
+    font-size: 26px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+._con_map{
+    height: 250px;
+}
+._terms_main {
+    margin-bottom: 35px;
+}
+/* Contact */
+
+/* Footer */
+._footer {
+    padding: 35px 0px 0;
+}
+._footer_we_title {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+._footer_list_title {
+    font-size: 16px;
+    line-height: 0.2em;
+    margin-bottom: 20px;
+}
+._footer_list{
+    margin-bottom: 45px;
+}
+._footer_info_num {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+._footer_we_text {
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+._footer_copy {
+    font-size: 15px;
+    padding: 15px 0;
+    margin-top: 33px;
+}
+/* Footer */
+
+/* Home */
+._1banner_title {
+    font-size: 28px;
+    line-height: 41px;
+}
+._1banner_subtitle {
+    font-size: 15px;
+    margin-top: 14px;
+    line-height: 25px;
+}
+._1banner_tag {
+    display: block;
+    padding: 19px 0 20px;
+}
+._1banner_tag_title {
+    font-size: 18px;
+}
+._1banner_tag_item {
+    display: flex;
+    padding: 8px 0;
+}
+._1banner {
+    padding: 51px 0px 65px;
+}
+._home_frequently_tabs .ivu-collapse>.ivu-collapse-item>.ivu-collapse-header {
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+._home_frequently_tabs .ivu-collapse>.ivu-collapse-item>.ivu-collapse-header>i {
+    margin-right: 8px;
+    height: 40px;
+    width: 40px;
+    flex: 0 0 auto;
+    margin-right: 13px;
+}
+._home_frequently ._1title {
+    margin-bottom: 31px;
+    font-size: 24px;
+}
+._home_frequently_tabs .ivu-collapse>.ivu-collapse-item {
+    margin-bottom: 23px;
+}
+._home_frequently {
+    padding: 45px 0;
+}   
+._sponsor {
+    padding: 35px 0;
+}
+._why {
+    padding: 40px 0 40px;
+    background: #fff;
+}
+._why_title {
+    margin-bottom: 13px;
+    text-align: left;
+    font-size: 28px;
+    line-height: 33px;
+}
+._why_top_text {
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+._why_card_all li{
+    text-align: left;
+    margin-bottom: 28px;
+}
+._why_card_icon {
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+._why_card {
+    position: relative;
+    padding-left: 57px;
+}
+._why_pic {
+    padding: 35px 0px;
+}
+._hAbout_text {
+    font-size: 18px;
+}
+._hAbout_title {
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 19px;
+}
+._hAbout_subtitle {
+    margin-bottom: 4px;
+}
+._hAbout_pic_main2{
+    width: 160px;
+    height: 175px;
+    margin: 130px auto 0 auto;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    background: url(https://bristolcentralheating.co.uk/wp-content/themes/porto/images/concept-item.png) no-repeat 0 0;
+}
+._hAbout_pic2{
+    border-radius: 150px;
+    margin: 8px;
+    width: 144px;
+}
+._hAbout_menu {
+    padding-bottom: 126px;
+    margin-top: 0px;
+}
+._hAbout_menu_title {
+    font-size: 28px;
+    margin-top: 23px;
+}
+._hAbout {
+    padding: 50px 0 4px;
+}
+.w-37 {
+    width: 100%;
+}
+/* Home */
+
+/* Single page */
+.blog-banner h4 {
+    letter-spacing: 1px;
+}
+.blog-banner h3 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding-top: 1px;
+}
+.blog-banner {
+    padding: 49px 0;
+}
+.blog-area {
+    padding-top: 47px;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+}
+._singService_subtitle {
+    font-size: 18px;
+    margin: 38px 0 15px;
+}
+._singService_price {
+    padding: 20px 0 52px;
+}
+.widget-area {
+    padding: 20px;
+    background: #F6F8FA;
+    margin-top: 0px;
+}
+._singService_price_list {
+    padding: 0px 0px;
+}
+._singService_price_list li {
+    font-size: 15px;
+    padding: 0 15px;
+    line-height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+._singService_price_list li span {
+    padding-left: 15px;
+    flex: 0 0 auto;
+    width: 158px;
+}
+._singService_main {
+    padding-bottom: 0;
+}
+/* Single page */
+
+/* Services */
+._blog_con {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+._services_text {
+    font-size: 15px;
+    z-index: 1;
+    line-height: 1.8em;
+    padding-bottom: 11px;
+    height: auto;
+}
+._services_title {
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+._services_pic {
+    height: auto;
+}
+/* Services */
+
+/* About */
+._about_left ._1title {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--secondary);
+}
+._about {
+    padding: 40px 0 40px;
+}
+._about_text_main {
+    margin-top: 19px;
+    margin-bottom: 32px;
+}
+._about_right_bottom_text {
+    font-size: 15px;
+    margin-bottom: 18px;
+    line-height: 1.8em;
+    margin-top: 21px;
+}
+._about_mark {
+    margin-bottom: 19px;
+}
+/* About */
+    
+}
+
+@media only screen and (max-width: 350px) {
+
+
+} 
+/*===== Mobile =====*/
+
+
+
