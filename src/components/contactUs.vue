@@ -1,0 +1,133 @@
+<template>
+    <div>
+        <div class="_3content">
+            <div class="container">
+                <h1 class="_faq_title">Contact Us</h1>
+                <div class="_terms_main">
+                    <div class="_donor_top">
+                        <h1 class="_donor_top_title"> Contact Us</h1>
+                    </div>
+
+                    <div class="_donor_con_main">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="_acco_info_form_group">
+                                    <p class="_1label">First Name <span>*</span></p>
+
+                                    <input class="_1input" placeholder="First Name" type="text">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="_acco_info_form_group">
+                                    <p class="_1label">Last Name <span>*</span></p>
+
+                                    <input class="_1input" placeholder="Last Name" type="text">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="_acco_info_form_group">
+                                    <p class="_1label">Email <span>*</span></p>
+
+                                    <input class="_1input" placeholder="Enter Email" type="text">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="_acco_info_form_group">
+                                    <p class="_1label">Contact Number <span>*</span></p>
+
+                                    <input class="_1input" placeholder="Enter Contact number" type="text">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-12">
+                                <div class="_acco_info_form_group">
+                                    <p class="_1label">Subject</p>
+                                    <textarea class="_1textarea" rows="2" placeholder="Write about"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-12">
+                                <div class="_acco_info_form_group">
+                                    <p class="_1label">Details</p>
+                                    <textarea class="_1textarea" rows="3" placeholder="Write Details"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-12 col-lg-12 _text_center">
+                                <button class="_2btn _btn_large _mobile_long">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="_con_ques">
+                        <h1 class="_con_ques_title">Have A Question</h1>
+
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="_con_ques_info">
+                                    <div class="_con_ques_info_icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M15.3607 11.6143L14.1232 10.3768C13.7543 10.0108 13.2564 9.80452 12.7368 9.80231C12.2172 9.8001 11.7175 10.0022 11.3456 10.3649C11.1471 10.5646 10.8852 10.6888 10.605 10.7162C10.3249 10.7436 10.0439 10.6725 9.8105 10.5151C8.88923 9.9003 8.0978 9.11039 7.48118 8.19032C7.32659 7.9543 7.25807 7.67221 7.28717 7.39158C7.31626 7.11094 7.4412 6.84891 7.64093 6.64963C8.00042 6.2773 8.19989 5.77903 8.19663 5.26149C8.19337 4.74394 7.98765 4.24823 7.6235 3.88045L6.386 2.64295C6.0155 2.27373 5.51377 2.06641 4.99072 2.06641C4.46766 2.06641 3.96593 2.27373 3.59543 2.64295L3.23937 2.99957C1.38312 4.85582 1.52206 8.75845 5.38418 12.6183C7.71293 14.9476 10.0569 15.923 11.9576 15.923C12.5171 15.9416 13.0747 15.8487 13.5979 15.6497C14.1211 15.4507 14.5995 15.1495 15.0052 14.7637L15.3618 14.4071C15.7317 14.0364 15.9394 13.5341 15.9391 13.0104C15.9389 12.4868 15.7309 11.9846 15.3607 11.6143ZM14.5653 13.6117L14.2087 13.9683C12.7462 15.4308 9.518 15.1636 6.17843 11.8235C2.83887 8.48338 2.57112 5.25295 4.03362 3.79045L4.38743 3.43438C4.54674 3.27566 4.76246 3.18653 4.98734 3.18653C5.21222 3.18653 5.42794 3.27566 5.58725 3.43438L6.82475 4.67188C6.98116 4.82908 7.06994 5.04118 7.07214 5.26292C7.07435 5.48466 6.98981 5.69848 6.83656 5.85876C6.45646 6.24128 6.21937 6.74279 6.16499 7.2793C6.11061 7.8158 6.24226 8.35469 6.53787 8.8057C7.23849 9.85414 8.13945 10.7538 9.18893 11.4528C9.63859 11.7485 10.1761 11.8809 10.7116 11.828C11.2471 11.775 11.7483 11.54 12.1314 11.162C12.2913 11.0069 12.5058 10.9208 12.7286 10.9222C12.9513 10.9236 13.1647 11.0123 13.3227 11.1693L14.5602 12.4068C14.64 12.4854 14.7034 12.579 14.7469 12.6822C14.7903 12.7854 14.8129 12.8962 14.8134 13.0082C14.8139 13.1202 14.7922 13.2312 14.7496 13.3347C14.707 13.4383 14.6444 13.5324 14.5653 13.6117Z" fill="#0A0909"/>
+                                        </svg>
+                                    </div>
+                                    <p class="_con_ques_info_text"> 016 11141115</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="_con_ques_info">
+                                    <div class="_con_ques_info_icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                                            <path d="M9.5 1.5C7.9087 1.5 6.38258 2.13214 5.25736 3.25736C4.13214 4.38258 3.5 5.9087 3.5 7.5C3.5 11.55 8.7875 16.125 9.0125 16.32C9.14835 16.4362 9.32123 16.5 9.5 16.5C9.67876 16.5 9.85165 16.4362 9.9875 16.32C10.25 16.125 15.5 11.55 15.5 7.5C15.5 5.9087 14.8679 4.38258 13.7426 3.25736C12.6174 2.13214 11.0913 1.5 9.5 1.5ZM9.5 14.7375C7.9025 13.2375 5 10.005 5 7.5C5 6.30653 5.47411 5.16193 6.31802 4.31802C7.16193 3.47411 8.30653 3 9.5 3C10.6935 3 11.8381 3.47411 12.682 4.31802C13.5259 5.16193 14 6.30653 14 7.5C14 10.005 11.0975 13.245 9.5 14.7375ZM9.5 4.5C8.90666 4.5 8.32664 4.67595 7.83329 5.00559C7.33994 5.33524 6.95542 5.80377 6.72836 6.35195C6.5013 6.90013 6.44189 7.50333 6.55764 8.08527C6.6734 8.66721 6.95912 9.20176 7.37868 9.62132C7.79824 10.0409 8.33279 10.3266 8.91473 10.4424C9.49667 10.5581 10.0999 10.4987 10.648 10.2716C11.1962 10.0446 11.6648 9.66006 11.9944 9.16671C12.3241 8.67336 12.5 8.09334 12.5 7.5C12.5 6.70435 12.1839 5.94129 11.6213 5.37868C11.0587 4.81607 10.2956 4.5 9.5 4.5ZM9.5 9C9.20333 9 8.91332 8.91203 8.66664 8.7472C8.41997 8.58238 8.22771 8.34811 8.11418 8.07403C8.00065 7.79994 7.97094 7.49834 8.02882 7.20737C8.0867 6.91639 8.22956 6.64912 8.43934 6.43934C8.64912 6.22956 8.91639 6.0867 9.20736 6.02882C9.49833 5.97094 9.79993 6.00065 10.074 6.11418C10.3481 6.22771 10.5824 6.41997 10.7472 6.66665C10.912 6.91332 11 7.20333 11 7.5C11 7.89783 10.842 8.27936 10.5607 8.56066C10.2794 8.84197 9.89782 9 9.5 9Z" fill="#0A0909"/>
+                                        </svg>
+                                    </div>
+                                    <p class="_con_ques_info_text">#904, City Centre, ZIndabazar, Sylhet, Bangladesh.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="_con_ques_info">
+                                    <div class="_con_ques_info_icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                            <g clip-path="url(#clip0_387_1331)">
+                                                <path d="M15.4286 1.71094H0.571429C0.255357 1.71094 0 1.96629 0 2.28237V13.7109C0 14.027 0.255357 14.2824 0.571429 14.2824H15.4286C15.7446 14.2824 16 14.027 16 13.7109V2.28237C16 1.96629 15.7446 1.71094 15.4286 1.71094ZM14.7143 3.68951V12.9967H1.28571V3.68951L0.792857 3.30558L1.49464 2.40379L2.25893 2.99844H13.7429L14.5071 2.40379L15.2089 3.30558L14.7143 3.68951ZM13.7429 2.99665L8 7.46094L2.25714 2.99665L1.49286 2.40201L0.791072 3.30379L1.28393 3.68772L7.38393 8.43058C7.55936 8.56687 7.77518 8.64085 7.99732 8.64085C8.21947 8.64085 8.43529 8.56687 8.61071 8.43058L14.7143 3.68951L15.2071 3.30558L14.5054 2.40379L13.7429 2.99665Z" fill="black"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_387_1331">
+                                                <rect width="16" height="16" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                    <p class="_con_ques_info_text">info@bloodsourcebd.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Map -->
+            <div class="_con_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- Map -->
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+  components: {
+  },
+
+  data(){
+    return{
+    }
+  },
+
+  methods:{
+   
+  },
+  
+  created(){
+    
+  }
+}
+</script>
