@@ -55,7 +55,8 @@
               <div class="_1menu_logo">
                 <router-link to="/">
                   <!-- <h1 class="">Logo</h1> -->
-                  <img class="_menu_logo" src="/static/img/logo.png" alt="" title="">
+                  <!-- <img class="_menu_logo" src="/static/img/logo1.jpeg" alt="" title=""> -->
+                  <img class="_menu_logo" src="/static/img/logo1.jpeg" alt="" title="">
                 </router-link>
               </div>
             </div>
@@ -83,7 +84,7 @@
                   </div>
                   <div class="_1menu_call_con">
                     <p class="_1menu_call_con_text">Quick Contact</p>
-                    <a class="_1menu_call_num" href="">07440737764</a>
+                    <a class="_1menu_call_num" href="">07766515390</a>
                   </div>
                 </div>
               </div>
@@ -101,7 +102,7 @@
               <div class="_1menu_logo">
                 <router-link to="/">
                   <!-- <h2 class="_1menu_logo_text">Logo</h2> -->
-                   <img class="_menu_logo" src="/static/img/logo.png" alt="" title="">
+                   <img class="_menu_logo" src="/static/img/logo1.jpeg" alt="" title="">
                 </router-link>
               </div>
             </div>
@@ -209,7 +210,7 @@
                       </div>
                       <div class="col-md-6 col-sm-6">
                           <div class="_footer_info_con">
-                            <h2 class="_footer_info_num"> 07440737764</h2>
+                            <h2 class="_footer_info_num"> 07766515390</h2>
                             <ul class="_footer_info_email">
                               <li>info@cleaning.com</li>
                               <li>7DU CGE Green Road, London, United Kindon</li>
@@ -275,7 +276,7 @@
 
                       <div class="col-12 col-md">
                           <div class="_footer_info_con">
-                            <h2 class="_footer_info_num"> 07440737764</h2>
+                            <h2 class="_footer_info_num"> 07766515390</h2>
                             <ul class="_footer_info_email">
                               <li>info@cleaning.com</li>
                               <li>7DU CGE Green Road, London, United Kindon</li>
