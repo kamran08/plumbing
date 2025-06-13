@@ -55,8 +55,8 @@
               <div class="_1menu_logo">
                 <router-link to="/">
                   <!-- <h1 class="">Logo</h1> -->
-                  <!-- <img class="_menu_logo" src="/static/img/logo1.jpeg" alt="" title=""> -->
-                  <img class="_menu_logo" src="/static/img/logo1.jpeg" alt="" title="">
+                  <!-- <img class="_menu_logo" src="/static/img/logo_main.jpeg" alt="" title=""> -->
+                  <img class="_menu_logo" src="/static/img/logo_main.jpeg" alt="" title="">
                 </router-link>
               </div>
             </div>
@@ -102,7 +102,8 @@
               <div class="_1menu_logo">
                 <router-link to="/">
                   <!-- <h2 class="_1menu_logo_text">Logo</h2> -->
-                   <img class="_menu_logo" src="/static/img/logo1.jpeg" alt="" title="">
+                  
+                   <img class="_menu_logo" src="/static/img/logo_main.jpeg" alt="" title="">
                 </router-link>
               </div>
             </div>
