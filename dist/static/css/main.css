@@ -74,14 +74,12 @@
     padding: 12px 0;
     z-index: 999;
 }
-/* ._menu_logo {
+._menu_logo {
+    height: 62px;
     height: 40px;
     width: auto;
-} */
-._menu_logo {
-    height: 77px;
-    width: 132px;
 }
+
 ._1menu_logo{}
 ._1menu_list{}
 ._1menu_list_li{
