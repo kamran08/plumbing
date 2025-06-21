@@ -110,14 +110,82 @@
             </div>
             <!-- Sonsor Logo -->
 
+            <!-- servicess -->
+            <div class="_2content" id="#service">
+        <!-- Top banner -->
+        <header class="blog-banner">
+            <div class="container blog-banner_con _text_center">
+                <h4><router-link to="/">Home</router-link> / All Services </h4>
+                <h3>All Services</h3>
+            </div>
+        </header>
+        <!-- Top banner -->
+
+        <!-- Main Section -->
+        <div class="_blog_con">
+            <div class="container">
+                <div class="_blog_card_row">
+                    <div class="row">
+                        <!-- Items -->
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <router-link to="/singlePage" class="_services_card">
+                                <h2 class="_services_title">plubmbing</h2>
+                                <p class="_services_text">Iste natus error sit voluptatem totam rem aperiam.</p>
+                                <div class="_services_pic">
+                                    <img class="_services_img" src="/static/img/pexels-karolina-grabowska-4239091.jpg" alt="" title="">
+                                </div>
+                                <div class="_text_center _services_card_btn">
+                                    <button class="_2btn">Read More</button>
+                                </div>
+                            </router-link>
+                        </div>
+                        <!-- Items -->
+                        <!-- Items -->
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <router-link to="/singlePage" class="_services_card">
+                                <h2 class="_services_title">Heating</h2>
+                                <p class="_services_text">Iste natus error sit voluptatem totam rem aperiam, eaque ipsa quae.</p>
+                                <div class="_services_pic">
+                                    <img class="_services_img" src="/static/img/ntwo.jpg" alt="" title="">
+                                </div>
+                                <div class="_text_center _services_card_btn">
+                                    <button class="_2btn">Read More</button>
+                                </div>
+                            </router-link>
+                        </div>
+                        <!-- Items -->
+                     
+                      
+                      
+                     
+                      
+                        <!-- Items -->
+                    </div>
+                </div>
+
+                <!-- <div class="_pagination " >
+                    <ul class="_pagination_list">
+                        <li class="_prev"><a href="#"><i class='bx bx-chevron-left'></i></a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#" class="_active">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li class="_next"><a href="#"><i class='bx bx-chevron-right'></i></a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+            <!-- servicess end -->
+
             <!-- About Us -->
             <div class="_hAbout">
                 <div class="container">
                     <p class="_hAbout_subtitle">About Us</p>
-                    <h1 class="_hAbout_title">London Central Heating</h1>
+                    <h1 class="_hAbout_title">London Heating & Plumbing</h1>
 
                     <p class="_hAbout_text">
-                        Bristol Central Heating is a family owned business based in the Bristol and Bath area. We are a team of affordable, reliable and professional plumbers with over 20 years of experience in all aspects of plumbing, heating and ventilation.
+                        London Heating and Plumbing is a family owned business based in the London. We are a team of affordable, reliable and professional plumbers with over 20 years of experience in all aspects of plumbing, heating and ventilation.
                     </p>
                     <p class="_hAbout_text">
                         We are full-service residential contractors with the ability to work harmoniously with architects, engineers and general contractors.
@@ -214,7 +282,7 @@
 
                             <p class="_why_card_title">Qualified and Insured</p>
                             <p class="_why_card_text">
-                                Bristol Central Heating has the relevant industry qualifications and insurance
+                                London Heating and Plumbing has the relevant industry qualifications and insurance
                             </p>
                             </div>
                         </li>
@@ -246,9 +314,9 @@
                                 <i class='bx  bx-building-house'  ></i> 
                             </div>
 
-                            <p class="_why_card_title">Based in Bristol</p>
+                            <p class="_why_card_title">Based in London</p>
                             <p class="_why_card_text">
-                                Quick response times for the Bristol and Bath area
+                                Quick response times for London
                             </p>
                             </div>
                         </li>
@@ -272,7 +340,7 @@
 
                             <p class="_why_card_title">Affordable Heating and Plumbing</p>
                             <p class="_why_card_text">
-                                Competitive industry rates for the region of Bristol and Bath
+                                Competitive industry rates for the region of London
                             </p>
                             </div>
                         </li>

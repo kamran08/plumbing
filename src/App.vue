@@ -33,7 +33,7 @@
                     <div class="_1header_openTime_icon">
                       <font-awesome-icon :icon="['far', 'clock']" />
                     </div>
-                    <p class="_1header_openTime_text">Mon - Fri: 09.00am - 10.00pm ~ info@websiteemail.co.uk</p>
+                    <p class="_1header_openTime_text">Mon - Fri: 09.00am - 10.00pm ~ londonplumbingnheating@hotmail.com</p>
                   </div>
                 </li>
               </ul>
