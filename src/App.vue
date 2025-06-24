@@ -134,7 +134,7 @@
                 <li class="_1menu_list_li">
                   <router-link class="_1menu_list_text _active" to="/">Home</router-link>
                 </li>
-                <li class="_1menu_list_li" onclick="onclickServices">
+                <li v-if="$route.path != '/singlePage'" class="_1menu_list_li" @click="onclickServices">
                   <router-link class="_1menu_list_text" to="" >Services</router-link>
                 </li>
                 <li class="_1menu_list_li">
@@ -230,8 +230,8 @@
       </div>
       <!-- Mobile menu -->
 
-      <div class="_main_layout">
-        <router-view></router-view>
+      <router-view></router-view>
+      <div class="_main_layout" v-if="$route.path == '/'">
         <div class="_1content">
             <!-- banner -->
             <div class="_1banner">
@@ -316,7 +316,9 @@
                     </p>
                 </div>
 
-                <div class="_hAbout_menu" id="services">
+                <div id="services"></div>
+
+                <div class="_hAbout_menu">
                     <div class="container _relative">
                         <span class="_sun"></span>
                         <span class="_cloud"></span>
@@ -620,7 +622,7 @@ export default {
 
   methods:{
   onclickServices(){
-    console.log("hello")
+    // console.log("hello")
     this.isMenuOpen = false
     const el = document.getElementById('services');
       el.scrollIntoView({behavior: "smooth"});

@@ -458,11 +458,13 @@
 ._why_pic{
     padding: 0 20px;
 }
-._why_img{
+._why_img {
     border: 1px solid #EBEBEB;
     padding: 15px;
     border-radius: 100%;
     background: #fff;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 ._why_card_all{}
 ._why_card_all li{
@@ -516,12 +518,14 @@
     color: var(--color3);
     text-align: center;
 }
+#services{
+    height: 120px;
+}
 ._hAbout_menu {
     width: 100%;
     overflow: hidden;
     background: url(/static/img/concept.png) no-repeat center 0;
     padding-bottom: 159px;
-    margin-top: 80px;
 }
 ._hAbout_pic_main{
     width: 160px;
@@ -1069,7 +1073,6 @@
 }
 .recent-title {
     text-align: left;
-    padding-right: 100px;
 }
 .recent-title > a {
     font-size: 14px;
@@ -1078,6 +1081,8 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color: var(--color2);
+    color: var(--secondary);
+    font-weight: bold;
 }
 .recent-title > a:hover {
     text-decoration: underline;
