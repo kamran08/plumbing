@@ -366,7 +366,7 @@
                             </div>
                             <div class="col-6 col-lg-2">
                                 <div class="_hAbout_pic_main">
-                                    <router-link class="_hAbout_link" to="/aboutUs">
+                                    <router-link class="_hAbout_link" to="/plumbing">
                                         <img class="_hAbout_pic" src="/static/img/rapir.jpg" alt="">
 
                                         <i class="_hAbout_menu_title">Repair</i>
