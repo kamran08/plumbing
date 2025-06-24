@@ -132,13 +132,19 @@
             <div class="col-12 col-md-auto col-lg-auto">
               <ul class="_1menu_list">
                 <li class="_1menu_list_li">
-                  <router-link class="_1menu_list_text _active" to="/">Home</router-link>
+                  <router-link :class="$route.path == '/'? '_1menu_list_text _active' : '_1menu_list_text'" to="/">Home</router-link>
                 </li>
-                <li v-if="$route.path != '/singlePage'" class="_1menu_list_li" @click="onclickServices">
+                <li v-if="$route.path != '/plumbing' && $route.path != '/heating' && $route.path != '/contactUs'" class="_1menu_list_li" @click="onclickServices">
                   <router-link class="_1menu_list_text" to="" >Services</router-link>
                 </li>
                 <li class="_1menu_list_li">
-                  <router-link class="_1menu_list_text" to="/contactUs">Contact Us</router-link>
+                  <router-link :class="$route.path == '/plumbing'? '_1menu_list_text _active' : '_1menu_list_text'" to="/plumbing">Plumbing</router-link>
+                </li>
+                <li class="_1menu_list_li">
+                  <router-link :class="$route.path == '/heating'? '_1menu_list_text _active' : '_1menu_list_text'" to="/heating">Heating</router-link>
+                </li>
+                <li class="_1menu_list_li">
+                  <router-link :class="$route.path == '/contactUs'? '_1menu_list_text _active' : '_1menu_list_text'" to="/contactUs">Contact Us</router-link>
                 </li>
                 <!-- <li class="_1menu_list_li">
                   <router-link class="_1menu_list_text" to="/aboutUs">About Us</router-link>
@@ -188,19 +194,24 @@
         <span @click="isMenuOpen = false" class="_sidebar_close"><Icon type="md-close" /></span>
             <template>
                 <div class="_sidebar_list_main">
-                    <!-- <p class="_sidebar_list_title">Explore</p> -->
+                  <div class="_1menu_logo _mob_logo">
+                    <router-link to="/">
+                      <!-- <h1 class="">Logo</h1> -->
+                      <!-- <img class="_menu_logo" src="/static/img/logo_main.jpeg" alt="" title=""> -->
+                      <img class="_menu_logo" src="/static/img/logo_main.jpeg" alt="" title="">
+                    </router-link>
+                  </div>
 
                     <ul class="_sidebar_list">
                         <li @click="isMenuOpen = false">
-                            <router-link to="/">
+                            <router-link :class="$route.path == '/'? '_1menu_list_text _active' : '_1menu_list_text'" to="/">
                                 <p class="_sidebar_list_icon">
                                   <i class='bx  bx-home'  ></i>  
                                 </p>
                                 <p class="_sidebar_list_text">Home</p>
                             </router-link>
                         </li>
-                        <li @click="onclickServices">
-                            <!-- <a href="#services"> -->
+                        <li v-if="$route.path != '/plumbing' && $route.path != '/heating' && $route.path != '/contactUs'" @click="onclickServices">
                               <router-link class="_1menu_list_text" to="" >
                                 <p class="_sidebar_list_icon">
                                   <i class="bx bx-cog"></i>
@@ -208,16 +219,24 @@
                                 <p class="_sidebar_list_text">Services</p>
                               </router-link>
                         </li>
-                        <!-- <li @click="isMenuOpen = false">
-                            <router-link to="/aboutUs">
-                                <p class="_sidebar_list_icon">
-                                  <i class="bx bx-user"></i>
-                                </p>
-                                <p class="_sidebar_list_text">About Us</p>
-                            </router-link>
-                        </li> -->
                         <li @click="isMenuOpen = false">
-                            <router-link to="/contactUs">
+                            <router-link :class="$route.path == '/plumbing'? '_1menu_list_text _active' : '_1menu_list_text'" to="/plumbing">
+                                <p class="_sidebar_list_icon">
+                                  <Icon type="md-hammer" />  
+                                </p>
+                                <p class="_sidebar_list_text">Plumbing</p>
+                            </router-link>
+                        </li>
+                        <li @click="isMenuOpen = false">
+                            <router-link :class="$route.path == '/heating'? '_1menu_list_text _active' : '_1menu_list_text'" to="/heating">
+                                <p class="_sidebar_list_icon">
+                                  <i class="bx bx-cog"></i> 
+                                </p>
+                                <p class="_sidebar_list_text">Heating</p>
+                            </router-link>
+                        </li>
+                        <li @click="isMenuOpen = false">
+                            <router-link :class="$route.path == '/contactUs'? '_1menu_list_text _active' : '_1menu_list_text'" to="/contactUs">
                                 <p class="_sidebar_list_icon">
                                   <i class="bx bx-phone"></i>
                                 </p>
@@ -230,7 +249,11 @@
       </div>
       <!-- Mobile menu -->
 
+      <!-- Router pages -->
       <router-view></router-view>
+      <!-- Router pages -->
+
+
       <div class="_main_layout" v-if="$route.path == '/'">
         <div class="_1content">
             <!-- banner -->
@@ -325,7 +348,7 @@
                         <div class="row">
                             <div class="col-6 col-lg-2 offset-lg-1">
                                 <div class="_hAbout_pic_main">
-                                    <router-link class="_hAbout_link" to="/singlePage">
+                                    <router-link class="_hAbout_link" to="/plumbing">
                                         <img class="_hAbout_pic" src="/static/img/plumbing-cropped.jpg" alt="">
     
                                         <i class="_hAbout_menu_title">Plumbing</i>
@@ -334,7 +357,7 @@
                             </div>
                             <div class="col-6 col-lg-2">
                                 <div class="_hAbout_pic_main">
-                                    <router-link class="_hAbout_link" to="/singlePage">
+                                    <router-link class="_hAbout_link" to="/heating">
                                         <img class="_hAbout_pic" src="/static/img/heating.png" alt="">
     
                                         <i class="_hAbout_menu_title">Heating</i>
@@ -534,16 +557,11 @@
             <div class="col-12 col-md-auto w-37">
                       <div class="_footer_we">
                         <h2 class="_footer_we_title">london plumbing & heating</h2>
-                        
-                        
+                        <p class="_footer_we_text">We are London based plumbing,heating and Repair services provider.</p>
                         <div class="_footer_we_pic">
                           <img src="/static/img/gas_safe.jpg" alt="" title="">
                         </div>
 
-                        <p class="_footer_we_text">
-
-                          We are London based plumbing,heating and Repair services provider.
-                        </p>
                       </div>
                   </div>
 

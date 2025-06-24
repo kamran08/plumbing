@@ -3,7 +3,8 @@ import Router from 'vue-router'
 import index from '@/components/index.vue'
 import contactUs from '@/components/contactUs.vue'
 import services from '@/components/services.vue'
-import singlePage from '@/components/singlePage.vue'
+import plumbing from '@/components/plumbing.vue'
+import heating from '@/components/heating.vue'
 import aboutUs from '@/components/aboutUs.vue'
 
 Vue.use(Router)
@@ -27,9 +28,14 @@ export default new Router({
       component: services
     },
     {
-      path: '/singlePage',
-      name: 'singlePage',
-      component: singlePage
+      path: '/plumbing',
+      name: 'plumbing',
+      component: plumbing
+    },
+    {
+      path: '/heating',
+      name: 'heating',
+      component: heating
     },
     {
       path: '/aboutUs',

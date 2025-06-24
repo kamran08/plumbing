@@ -3,8 +3,8 @@
         <!-- Top banner -->
         <header class="blog-banner">
             <div class="container blog-banner_con _text_center">
-                <h4><a href="index.html"> Home </a> <a href="">   / Our Service </a>  </h4>
-                <h3>Our Service </h3>
+                <h4><router-link to="/">Home</router-link>  / Plumbing   </h4>
+                <h3>Plumbing </h3>
             </div>
         </header>
         <!-- Top banner -->
@@ -20,22 +20,14 @@
                             </div>
                             
                             <div class="_singService">
-                                <h2 class="_singService_title">Laundry Service</h2>
+                                <h2 class="_singService_title">Plumbing</h2>
 
                                 <p class="_singService_text">
-                                    Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .
-                                </p>
-
-                                <h2 class="_singService_subtitle">
-                                    WHAT INCLUDE IN THE SERVICE?
-                                </h2>
-
-                                <p class="_singService_text">
-                                    Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu
+                                    London plumbing & Heating offers full service plumbing installation and repairs for projects ranging from small residential scale to large commercial contracts.
                                 </p>
 
                                 <p class="_singService_text">
-                                    Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu elit Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi
+                                    For a full list of plumbing services please see below. If you need further information, please do not hesitate to contact us
                                 </p>
                             </div>
 
@@ -94,73 +86,73 @@
                             <h3 class="widget-title">Our <strong>Plumbing Services</strong></h3>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Blocked Drains and Repairs</a>
+                                    <a href="#">Blocked Drains and Repairs</a>
                                     <p>Including all drain and sewer plumbing needs</p>
                                 </div>
                             </div>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Bath & Shower Plumbing</a>
+                                    <a href="#">Bath & Shower Plumbing</a>
                                     <p>All Bath and Shower Plumbing Needs</p>
                                 </div>
                             </div>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Commercial Plumbing </a>
+                                    <a href="#">Commercial Plumbing </a>
                                     <p>Plumbing for your business or facility</p>
                                 </div>
                             </div>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Gas-Fitting </a>
+                                    <a href="#">Gas-Fitting </a>
                                     <p>All gas-fitting needs in Bristol area including oven, BBQ, and heating installations</p>
                                 </div>
                             </div>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Plumbing Services</a>
+                                    <a href="#">Plumbing Services</a>
                                     <p>Convenient 24/7 plumbing service</p>
                                 </div>
                             </div>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Roofing</a>
+                                    <a href="#">Roofing</a>
                                     <p>New residential and commercial installations and repairs including gutters and downpipes</p>
                                 </div>
                             </div>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Water Heaters</a>
+                                    <a href="#">Water Heaters</a>
                                     <p>New installations including repairs to all existing hot water systems and commercial systems</p>
                                 </div>
                             </div>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Toilet Repairs & Plumbing: </a>
+                                    <a href="#">Toilet Repairs & Plumbing: </a>
                                     <p>New installations and all toilet repairs</p>
                                 </div>
                             </div>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Pipe Leaks & Repairs</a>
+                                    <a href="#">Pipe Leaks & Repairs</a>
                                     <p>All pipe leak issues, leak detection and repair</p>
                                 </div>
                             </div>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Continuous Flow Hot Water</a>
+                                    <a href="#">Continuous Flow Hot Water</a>
                                     <p>New installations of high efficiency continuous flow water heaters and water heaters</p>
                                 </div>
                             </div>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Pipe Freezing</a>
+                                    <a href="#">Pipe Freezing</a>
                                     <p>All your emergency and maintenance pipe freezing needs</p>
                                 </div>
                             </div>
                             <div class="recent-post-box">
                                 <div class="recent-title">
-                                    <a href="single-blog.html">Backflow Prevention</a>
+                                    <a href="#">Backflow Prevention</a>
                                     <p>New installations and repairs of existing residential and commercial backflow devices</p>
                                 </div>
                             </div>
